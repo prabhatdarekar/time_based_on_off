@@ -54,9 +54,8 @@ pinMode(pin_3,OUTPUT);
 digitalWrite(pin_3,off_state);
 pinMode(pin_4,OUTPUT);
 digitalWrite(pin_4,off_state);
-
-                                                            \\setup i2c 
-Wire.begin(slave_addr);
+                                                           
+Wire.begin(slave_addr);                                  \\setup i2c 
 Wire.onReceive(receiveData);
 }
 
