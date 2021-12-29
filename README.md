@@ -1,5 +1,10 @@
-// time_based_on_off
-//This code is used for slave device(Arduino) and to control on and off time using the Timer interrupt.
+*/
+time_based_on_off
+This code is used for slave device(Arduino) and to control on and off time using the Timer interrupt.
+This code is designed to control a circuit of 4 relay modules from master device.
+By expanding, we can make it to worrk for as many relay modules considering the available i/o pins on Arduino. 
+Using small modification one can use this code to control from serial monitor. 
+/*
 
 #include<Wire.h>                      // I2C library for communication 
 #include<TimedAction.h>               // This library used for timer inerrupt
